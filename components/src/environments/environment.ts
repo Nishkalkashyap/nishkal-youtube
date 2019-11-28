@@ -5,17 +5,17 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyBns4UUCKIfb_3xOesTSezA9GbEyuIU7XA',
-    authDomain: 'fireship-app.firebaseapp.com',
-    databaseURL: 'https://fireship-app.firebaseio.com',
-    projectId: 'fireship-app',
-    storageBucket: 'fireship-app.appspot.com',
-    messagingSenderId: '176605045081',
-    appId: '1:176605045081:web:d87a63bd943e3032',
-    measurementId: 'G-VTJV5CVC6K'
+    apiKey: "AIzaSyBDBbwdU7XHAXwJa91R77jOWNFy6rW4Y_o",
+    authDomain: "diy-mechatronics.firebaseapp.com",
+    databaseURL: "https://diy-mechatronics.firebaseio.com",
+    projectId: "diy-mechatronics",
+    storageBucket: "diy-mechatronics.appspot.com",
+    messagingSenderId: "795809219937",
+    appId: "1:795809219937:web:c6b8b9408f847e18813120",
+    measurementId: "G-EE7GP0QKT2"
   },
-  // stripe: 'pk_test_m3a5moXVKgThpdfwzKILvnbG'
-  stripe: 'pk_live_qSaGVmF1x4X3vIWZmpbgceNU'
+  // stripe: 'pk_live_qSaGVmF1x4X3vIWZmpbgceNU'
+  stripe: 'replace-with-mine'
 };
 
 /*
