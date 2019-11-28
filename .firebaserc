@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "fireship-app"
+    "default": "diy-mechatronics"
+  },
+  "targets": {
+    "diy-mechatronics": {
+      "hosting": {
+        "nishkal-youtube": [
+          "nishkal"
+        ]
+      }
+    }
   }
 }

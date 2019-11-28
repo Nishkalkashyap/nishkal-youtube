@@ -12,6 +12,7 @@
     "build:hugo": "cd hugo && hugo",
     "build:components": "cd components && npm run lint && npm run build",
     "build": "rm -rf public && npm run build:design && npm run build:components && npm run build:hugo",
+    "build-win": "npm run build:design && npm run build:components && npm run build:hugo",
     "algolia": "atomic-algolia",
     "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting",
     "link-upstream": "git remote add upstream https://github.com/fireship-io/fireship.io",

@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "public",
+    "target": "nishkal-youtube",
     "ignore": [
       "firebase.json",
       "**/.*",
