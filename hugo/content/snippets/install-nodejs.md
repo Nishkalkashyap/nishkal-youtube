@@ -3,7 +3,7 @@ title: Install NodeJS
 publishdate: 2018-12-11T09:35:09-07:00
 lastmod: 2018-12-11T09:35:09-07:00
 draft: false
-author: Jeff Delaney
+author: Nishkal
 description: How to Install NodeJS
 tags: 
     - node
