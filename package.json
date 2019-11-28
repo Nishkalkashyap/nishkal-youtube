@@ -11,10 +11,10 @@
     "build:design": "webpack",
     "build:hugo": "cd hugo && hugo",
     "build:components": "cd components && npm run lint && npm run build",
-    "build": "rm -rf public && npm run build:design && npm run build:components && npm run build:hugo",
-    "build-win": "npm run build:design && npm run build:components && npm run build:hugo",
+    "build": "bash -c 'rm -rf public' && npm run build:design && npm run build:components && npm run build:hugo",
     "algolia": "atomic-algolia",
-    "deploy": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting",
+    "deploy": "firebase deploy --only hosting",
+    "deploy-ci": "firebase deploy --debug --token \"$FIREBASE_TOKEN\" --only hosting",
     "link-upstream": "git remote add upstream https://github.com/fireship-io/fireship.io",
     "sync": "git fetch && git checkout master && git merge upstream/master && git push",
     "reset": "rm -rf ./node_modules ./package-lock.json && npm install && npm run dev"
