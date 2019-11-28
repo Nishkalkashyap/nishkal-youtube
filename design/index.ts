@@ -102,7 +102,7 @@ declare function gtag(command: 'config' | 'set' | 'event', id: string, config?: 
       doOnRouteChange();
       const page_path = new URL(window.history.state['url']).pathname;
 
-      gtag('config', 'UA-59099331-16', { page_path });
+      gtag('config', 'UA-112064718-11', { page_path });
     });
   });
 })();
